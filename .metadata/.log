@@ -1,0 +1,344 @@
+!SESSION 2022-11-21 22:24:38.703 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product -data C:\xampp\htdocs\vtigercrm -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-21 22:24:49.029
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tomeu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-11-22 18:32:31.329 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-22 18:33:04.361
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tomeu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:34:15.078
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:34:15.078
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE Software being installed: Git integration for Eclipse 6.3.0.202209071007-r (org.eclipse.egit.feature.group 6.3.0.202209071007-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 5.10.0.202012080955-r (org.eclipse.egit.mylyn.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.078
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE Git integration for Eclipse - Core 5.10.0.202012080955-r (org.eclipse.egit.core 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE Git integration for Eclipse - Core 6.3.0.202209071007-r (org.eclipse.egit.core 6.3.0.202209071007-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.078
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE From: Git integration for Eclipse 6.3.0.202209071007-r (org.eclipse.egit.feature.group 6.3.0.202209071007-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.078
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.3.0.202209071007-r,6.3.0.202209071007-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.079
+!MESSAGE From: Git integration for Eclipse - Task focused interface 5.10.0.202012080955-r (org.eclipse.egit.mylyn.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.079
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.079
+!MESSAGE From: EGit Mylyn UI 5.10.0.202012080955-r (org.eclipse.egit.mylyn.ui 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.079
+!MESSAGE To: java.package; org.eclipse.egit.core [5.10.0,5.11.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:34:15.431
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:34:15.431
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE Software being installed: Git integration for Eclipse 6.3.0.202209071007-r (org.eclipse.egit.feature.group 6.3.0.202209071007-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 5.10.0.202012080955-r (org.eclipse.egit.mylyn.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.431
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE Git integration for Eclipse - Core 5.10.0.202012080955-r (org.eclipse.egit.core 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE Git integration for Eclipse - Core 6.3.0.202209071007-r (org.eclipse.egit.core 6.3.0.202209071007-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.431
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE From: Git integration for Eclipse 6.3.0.202209071007-r (org.eclipse.egit.feature.group 6.3.0.202209071007-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.3.0.202209071007-r,6.3.0.202209071007-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.431
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE From: Git integration for Eclipse - Task focused interface 5.10.0.202012080955-r (org.eclipse.egit.mylyn.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:34:15.431
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE From: EGit Mylyn UI 5.10.0.202012080955-r (org.eclipse.egit.mylyn.ui 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:34:15.431
+!MESSAGE To: java.package; org.eclipse.egit.core [5.10.0,5.11.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:35:38.981
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:35:38.982
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE Software currently installed: PHP Development Tools (PDT) Mylyn Integration 7.2.0.202005271851 (org.eclipse.php.mylyn.feature.group 7.2.0.202005271851)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.982
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE PDT Server UI Plug-in 7.2.1.202112011741 (org.eclipse.php.server.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE PDT Server UI Plug-in 7.2.0.202005271851 (org.eclipse.php.server.ui 7.2.0.202005271851)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.982
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE From: PHP Development Tools (PDT) 7.2.0.202005271851 (org.eclipse.php.feature.group 7.2.0.202005271851)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.server.ui [7.2.0.202005271851,7.2.0.202005271851]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.982
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.server.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.982
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE From: PHP Development Tools (PDT) Mylyn Integration 7.2.0.202005271851 (org.eclipse.php.mylyn.feature.group 7.2.0.202005271851)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.982
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.feature.group [7.2.0.202005271851,7.2.0.202005271851]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:35:38.989
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:35:38.989
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE Software being installed: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE Software currently installed: PHP Development Tools (PDT) Mylyn Integration 7.2.0.202005271851 (org.eclipse.php.mylyn.feature.group 7.2.0.202005271851)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.989
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE PDT Server UI Plug-in 7.2.1.202112011741 (org.eclipse.php.server.ui 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE PDT Server UI Plug-in 7.2.0.202005271851 (org.eclipse.php.server.ui 7.2.0.202005271851)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.989
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE From: PHP Development Tools (PDT) 7.2.0.202005271851 (org.eclipse.php.feature.group 7.2.0.202005271851)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.server.ui [7.2.0.202005271851,7.2.0.202005271851]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.989
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE From: PHP Development Tools (PDT) 7.2.1.202112011741 (org.eclipse.php.feature.group 7.2.1.202112011741)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.server.ui [7.2.1.202112011741,7.2.1.202112011741]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:35:38.989
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE From: PHP Development Tools (PDT) Mylyn Integration 7.2.0.202005271851 (org.eclipse.php.mylyn.feature.group 7.2.0.202005271851)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:35:38.989
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.php.feature.group [7.2.0.202005271851,7.2.0.202005271851]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:36:42.441
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:36:42.441
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE Software being installed: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE Software currently installed: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.441
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE Refactoring UI 3.12.200.v20220808-2221 (org.eclipse.ltk.ui.refactoring 3.12.200.v20220808-2221)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE Refactoring UI 3.11.200.v20201025-2022 (org.eclipse.ltk.ui.refactoring 3.11.200.v20201025-2022)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.441
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE From: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.441
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.25.0.v20220831-1800,4.25.0.v20220831-1800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.441
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.442
+!MESSAGE From: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.442
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.11.200.v20201025-2022,3.11.200.v20201025-2022]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.442
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.442
+!MESSAGE From: Eclipse Platform 4.25.0.v20220831-1800 (org.eclipse.platform.feature.group 4.25.0.v20220831-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.442
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.12.200.v20220808-2221,3.12.200.v20220808-2221]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:36:42.445
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:36:42.445
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE Software being installed: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE Software currently installed: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.445
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE Refactoring UI 3.12.200.v20220808-2221 (org.eclipse.ltk.ui.refactoring 3.12.200.v20220808-2221)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE Refactoring UI 3.11.200.v20201025-2022 (org.eclipse.ltk.ui.refactoring 3.11.200.v20201025-2022)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.445
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE From: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.25.0.v20220831-1800,4.25.0.v20220831-1800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.445
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE From: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.11.200.v20201025-2022,3.11.200.v20201025-2022]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.445
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE From: Eclipse Platform 4.25.0.v20220831-1800 (org.eclipse.platform.feature.group 4.25.0.v20220831-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.445
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.12.200.v20220808-2221,3.12.200.v20220808-2221]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:36:42.479
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:36:42.479
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.479
+!MESSAGE Software being installed: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.479
+!MESSAGE Software currently installed: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.479
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.479
+!MESSAGE Refactoring UI 3.12.200.v20220808-2221 (org.eclipse.ltk.ui.refactoring 3.12.200.v20220808-2221)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE Refactoring UI 3.11.200.v20201025-2022 (org.eclipse.ltk.ui.refactoring 3.11.200.v20201025-2022)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.480
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE From: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.25.0.v20220831-1800,4.25.0.v20220831-1800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.480
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE From: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.11.200.v20201025-2022,3.11.200.v20201025-2022]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.480
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE From: Eclipse Platform 4.25.0.v20220831-1800 (org.eclipse.platform.feature.group 4.25.0.v20220831-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.480
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.12.200.v20220808-2221,3.12.200.v20220808-2221]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-11-22 18:36:42.482
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-11-22 18:36:42.482
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE Software being installed: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE Software currently installed: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.482
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE Refactoring UI 3.12.200.v20220808-2221 (org.eclipse.ltk.ui.refactoring 3.12.200.v20220808-2221)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE Refactoring UI 3.11.200.v20201025-2022 (org.eclipse.ltk.ui.refactoring 3.11.200.v20201025-2022)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE From: Eclipse IDE for PHP Developers 4.25.0.20220908-1200 (epp.package.php 4.25.0.20220908-1200)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.25.0.v20220831-1800,4.25.0.v20220831-1800]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE From: Eclipse Platform 4.18.0.v20201202-1800 (org.eclipse.platform.feature.group 4.18.0.v20201202-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.11.200.v20201025-2022,3.11.200.v20201025-2022]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:42.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE From: Eclipse Platform 4.25.0.v20220831-1800 (org.eclipse.platform.feature.group 4.25.0.v20220831-1800)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:42.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ltk.ui.refactoring [3.12.200.v20220808-2221,3.12.200.v20220808-2221]
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.296
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE Software being installed: a.jre.javase 18.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE Software being installed: Wild Web Developer HTML, CSS, JSON, Yaml, JavaScript, TypeScript, Node tools 0.11.0.202206231201 (org.eclipse.wildwebdeveloper.feature.feature.group 0.11.0.202206231201)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.296
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE From: Wild Web Developer: web development in Eclipse IDE 0.6.0.202206151321 (org.eclipse.wildwebdeveloper 0.6.0.202206151321)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.296
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE From: Wild Web Developer HTML, CSS, JSON, Yaml, JavaScript, TypeScript, Node tools 0.11.0.202206231201 (org.eclipse.wildwebdeveloper.feature.feature.group 0.11.0.202206231201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.296
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wildwebdeveloper [0.6.0.202206151321,0.6.0.202206151321]
+
+!ENTRY org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.300
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE Software being installed: a.jre.javase 18.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE Software being installed: Wild Web Developer HTML, CSS, JSON, Yaml, JavaScript, TypeScript, Node tools 0.11.0.202206231201 (org.eclipse.wildwebdeveloper.feature.feature.group 0.11.0.202206231201)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.300
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE From: Wild Web Developer: web development in Eclipse IDE 0.6.0.202206151321 (org.eclipse.wildwebdeveloper 0.6.0.202206151321)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE To: osgi.ee; (&(osgi.ee=JavaSE)(version=17))
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2022-11-22 18:36:50.300
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE From: Wild Web Developer HTML, CSS, JSON, Yaml, JavaScript, TypeScript, Node tools 0.11.0.202206231201 (org.eclipse.wildwebdeveloper.feature.feature.group 0.11.0.202206231201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-11-22 18:36:50.300
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wildwebdeveloper [0.6.0.202206151321,0.6.0.202206151321]
+!SESSION 2022-11-22 18:37:43.789 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-11-22 18:38:47.066
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tomeu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
