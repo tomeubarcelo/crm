@@ -1,0 +1,7 @@
+.company-logo img {
+    object-fit: contain;
+}
+
+.company-logo {
+    display: flex!important;
+}
