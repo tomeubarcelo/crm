@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<title>02</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #4a5568;stroke: #4a5568 } 
+	</style>
+	<g id="02.CARTA">
+		<g id="01.SUGERENCIAS">
+			<g id="Sugerencia 01">
+				<g id="BTN Favorito">
+					<path id="Polígono 601" class="shp0" d="M12.01 4.63L8.19 7.42L9.46 12.02L5.85 9.14L2.04 11.94L3.63 7.38L0.02 4.51L4.6 4.57L6.18 0L7.42 4.6L12.01 4.63Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

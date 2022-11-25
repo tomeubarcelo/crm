@@ -43,7 +43,7 @@ if ($adb->num_rows($v_res) === 0)
 
 // comprobamos que la version de la BDD no es la actual
 
-$v_query = "SELECT * FROM w34_db";
+$v_query = "SELECT * FROM tb_db";
 $v_res = $adb->query($v_query);
 
 $v_db_version = 0;
@@ -55,12 +55,13 @@ if ($adb->num_rows($v_res) > 0)
     }
 }
 
-if ($v_db_version < $v_version)
+if ($v_db_version <= $v_version)
 {
-    var_dump($v_version);
-
     // 1.101 primera version
-    if ($v_db_version == 0) {include('tb_update/versions/001.php');}
+    if ($v_db_version == "0.001") {include('tb_update/versions/001.php');}
+
+    //
+    if ($v_db_version == "0.002") {include('tb_update/versions/002.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
