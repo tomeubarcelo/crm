@@ -68,6 +68,9 @@ if ($v_db_version <= $v_version)
 
     // 1.104 crear qr
     if ($v_db_version == "0.004") {include('tb_update/versions/004.php');}
+
+    // 1.104 nuevos campos en el qr
+    if ($v_db_version == "0.005") {include('tb_update/versions/005.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
