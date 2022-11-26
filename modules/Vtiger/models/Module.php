@@ -2046,6 +2046,15 @@ class Vtiger_Module_Model extends Vtiger_Module {
 		$moduleIcon = "<i class='vicon-$lowerModuleName' title='$title'></i>";
 		if ($this->source == 'custom') {
 			$moduleShortName = mb_substr(trim($title), 0, 2);
+			if($title == "Cartas Online"){
+				$moduleShortName = "CO";
+			}
+			if($title == "Carta Online Categorías"){
+				$moduleShortName = "CC";
+			}
+			if($title == "Carta Online Elementos"){
+				$moduleShortName = "CE";
+			}
 			$moduleIcon = "<span class='custom-module' title='$title'>$moduleShortName</span>";
 		}
 
