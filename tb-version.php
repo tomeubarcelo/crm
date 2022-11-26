@@ -3,4 +3,4 @@
  * TB Version
  */ 
 
-$g_tb_version = '0.002';
+$g_tb_version = '0.003';
