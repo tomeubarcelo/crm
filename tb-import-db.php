@@ -65,6 +65,9 @@ if ($v_db_version <= $v_version)
 
     // 1.103 actualizaciones tabla vtiger_app2tab
     if ($v_db_version == "0.003") {include('tb_update/versions/003.php');}
+
+    // 1.104 crear qr
+    if ($v_db_version == "0.004") {include('tb_update/versions/004.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
