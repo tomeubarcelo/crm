@@ -16,7 +16,7 @@ if (isset($_REQUEST['docofunction'])) {
         global $adb;
         
         $v_imageid = (int) $_REQUEST['imageid'];
-       
+
         $v_quality = 'NULL';
         if (isset($_REQUEST['quality']) && ($_REQUEST['quality'] > 0)) {
             $v_quality = (int) $_REQUEST['quality'];
@@ -36,7 +36,7 @@ if (isset($_REQUEST['docofunction'])) {
         $v_type = 'image/png';
         $v_name = 'default-no-image.png';
         if ($v_imageid > 0) {
-            $v_query = " SELECT va.`name` , va.`type` , va.`path`, va.`attachmentsid`
+            $v_query = " SELECT *
 						FROM `vtiger_attachments` va
 						INNER JOIN vtiger_crmentity vce ON vce.crmid = va.`attachmentsid`
 						AND vce.deleted =0
@@ -66,12 +66,14 @@ if (isset($_REQUEST['docofunction'])) {
                 $v_type = $adb->query_result($v_result, 0, 'type');
                 $v_name = $adb->query_result($v_result, 0, 'name');
                 $v_path = $adb->query_result($v_result, 0, 'path');
+                $v_storedname = $adb->query_result($v_result, 0, 'storedname');
                 $v_imageid = $adb->query_result($v_result, 0, 'attachmentsid');
                 
                 if ($v_name != '')
-                    $v_ruta = $v_path . $v_imageid . '_' . $v_name;
+                    $v_ruta = $v_path . $v_imageid . '_' . $v_storedname;
             }
         }
+        
         if (file_exists($v_ruta)) {
             
             if ($v_type == 'application/pdf' || $v_type == 'application/octet-stream')

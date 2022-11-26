@@ -11,7 +11,7 @@
 {strip}
 	<style>
 		body {
-			background: url(layouts/v7/resources/Images/login-background.jpg);
+			background: url(tb_custom/tb/img/gente_negocios.webp);
 			background-position: center;
 			background-size: cover;
 			width: 100%;
@@ -208,9 +208,9 @@
 
 	<span class="app-nav"></span>
 	<div class="container-fluid loginPageContainer">
-		<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<div class="loginDiv widgetHeight">
-				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
+				<img class="img-responsive user-logo" src="tb_custom/tb/img/logo_tbm.png">
 				<div>
 					<span class="{if !$ERROR}hide{/if} failureMessage" id="validationMessage">{$MESSAGE}</span>
 					<span class="{if !$MAIL_STATUS}hide{/if} successMessage">{$MESSAGE}</span>
@@ -258,11 +258,11 @@
 			</div>
 		</div>
 
-		<div class="col-lg-1 hidden-xs hidden-sm hidden-md">
+		<div class="col-lg-1 hidden-xs hidden-sm hidden-md" style="display: none">
 			<div class="separatorDiv"></div>
 		</div>
 
-		<div class="col-lg-5 hidden-xs hidden-sm hidden-md">
+		<div class="col-lg-5 hidden-xs hidden-sm hidden-md" style="display: none">
 			<div class="marketingDiv widgetHeight">
 				{if $JSON_DATA}
 					<div class="scrollContainer">

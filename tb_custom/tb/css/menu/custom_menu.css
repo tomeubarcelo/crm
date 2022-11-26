@@ -168,7 +168,7 @@ header .menuCategorias {
 .bwm_favs a:before {
     content: '';
     display: block;
-    background-image: url(/layouts/v7/resources/Images/btn_fav_menu.svg);
+    background-image: url(../../../../layouts/v7/resources/Images/btn_fav_menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 17px;
@@ -182,7 +182,7 @@ header .menuCategorias {
 .bwm_favs a:hover::before {
     content: '';
     display: block;
-    background-image: url(/layouts/v7/resources/Images/btn_fav_menu_selected.svg);
+    background-image: url(../../../../layouts/v7/resources/Images/btn_fav_menu_selected.svg);
 }
 
 .returnMenu {
@@ -367,7 +367,7 @@ header .menuCategorias {
 .sugerencias .titleElement .fav:before {
     content: '';
     display: block;
-    background-image: url(/layouts/v7/resources/Images/btn_fav_menu.svg);
+    background-image: url(../../../../layouts/v7/resources/Images/btn_fav_menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 13px;
@@ -382,7 +382,7 @@ header .menuCategorias {
 .favoritos .titleElement .fav.like.selected:before,
 .sugerencias .titleElement .fav.like.selected:before {
     content: '';
-    background-image: url(/layouts/v7/resources/Images/btn_fav_menu_selected.svg);
+    background-image: url(../../../../layouts/v7/resources/Images/btn_fav_menu_selected.svg);
 }
 
 
@@ -1246,6 +1246,7 @@ header .menuCategorias {
         width: 100%;
     }
     /*IMG ELEMENTOS MOBILE[end]*/
+    nav .left img {}
 }
 
 @media screen and (max-width: 500px) {

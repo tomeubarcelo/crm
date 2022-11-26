@@ -525,16 +525,15 @@ if ($a_html_lang[$v_lang] == 'es') {
 
 
               <?php
-            if (! $pageFavoritos) {
+            if (!$pageFavoritos) {
                 echo "<div class='listaCartas'><!--menu categorias [begin]-->
                     <span class='openMenu'>+</span>";
-                echo "<div class='menuCategorias' style='display: none;'>";
+                echo "<div class='menuCategorias'>";
                 foreach (($g_menu['categorias']) as $catid => $langs) {
-                    if ($langs[$v_lang]['categoria_en_menu'] == 1) {
                         echo "<a href='javascript:void(0)' class='tbcatmenu' id='tbcat_$catid' data-catid='$catid'>";
                         echo $langs[$v_lang]['title']; // titulo de la categoria
                         echo "</a>";
-                    }
+                
                 }
                 echo "</div>";
 

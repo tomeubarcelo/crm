@@ -9,9 +9,7 @@
 
 <footer class="app-footer">
 	<p>
-		Powered by vtiger CRM - {$VTIGER_VERSION}&nbsp;&nbsp;© 2004 - {date('Y')}&nbsp;&nbsp;
-		<a href="//www.vtiger.com" target="_blank">Vtiger</a>&nbsp;|&nbsp;
-		<a href="https://www.vtiger.com/privacy-policy" target="_blank">Privacy Policy</a>
+		Powered by <a href="../../../../../tbmarketing" target="_blank">TBMarketing CRM</a> - {$VTIGER_VERSION}&nbsp;&nbsp;© {date('Y')}&nbsp;&nbsp;
 	</p>
 </footer>
 </div>
