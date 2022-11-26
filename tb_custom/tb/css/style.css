@@ -5,3 +5,7 @@
 .company-logo {
     display: flex!important;
 }
+
+.app-menu .app-modules-dropdown li a {
+    padding-left: 9px!important;
+}

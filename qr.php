@@ -330,7 +330,7 @@ function downloadVcard($p_values, $p_token) {
             echo "BEGIN:VCARD".PHP_EOL;
             echo "VERSION:3.0".PHP_EOL;
             echo "FN;CHARSET=UTF-8:$v_nombre $v_apellidos".PHP_EOL;
-            echo "N;CHARSET=UTF-8:Martí;$v_nombre;;;".PHP_EOL;
+            echo "N;CHARSET=UTF-8:$v_nombre;;;".PHP_EOL;
             echo "EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:$v_email".PHP_EOL;
             echo "TEL;TYPE=CELL:".str_replace(" ", "", $v_movil).PHP_EOL;
             echo "TEL;TYPE=WORK,VOICE:".str_replace(" ", "", $v_telefono).PHP_EOL;
