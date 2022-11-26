@@ -60,8 +60,11 @@ if ($v_db_version <= $v_version)
     // 1.101 primera version
     if ($v_db_version == "0.001") {include('tb_update/versions/001.php');}
 
-    //
+    // 1.102 modulos para la carta online
     if ($v_db_version == "0.002") {include('tb_update/versions/002.php');}
+
+    // 1.103 actualizaciones tabla vtiger_app2tab
+    if ($v_db_version == "0.003") {include('tb_update/versions/003.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
