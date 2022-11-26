@@ -69,8 +69,14 @@ if ($v_db_version <= $v_version)
     // 1.104 crear qr
     if ($v_db_version == "0.004") {include('tb_update/versions/004.php');}
 
-    // 1.104 nuevos campos en el qr
+    // 1.105 nuevos campos en el qr
     if ($v_db_version == "0.005") {include('tb_update/versions/005.php');}
+
+    // 1.106 crear modulo campeonato
+    if ($v_db_version == "0.006") {include('tb_update/versions/006.php');}
+
+    // 1.107 crear modulo participantes
+    if ($v_db_version == "0.007") {include('tb_update/versions/007.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
