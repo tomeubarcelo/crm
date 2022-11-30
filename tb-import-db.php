@@ -77,6 +77,9 @@ if ($v_db_version <= $v_version)
 
     // 1.107 crear modulo participantes
     if ($v_db_version == "0.007") {include('tb_update/versions/007.php');}
+
+    // 1.107 crear modulos empleados, vacaciones, nominas y contratos
+    if ($v_db_version == "0.008") {include('tb_update/versions/008.php');}
 }
 
 // ACTUALIZAMOS EL VALOR DE LA NUEVA VERSIÓN DE BDD
