@@ -497,6 +497,12 @@ if (($moduleInstance) && !$v_is_test) {
     $relationLabel = 'LBL_'.strtoupper($moduleInstance->name).'_TBMENUS_ELEMENTS';
     $moduleIns->setRelatedList($relatedModule, $relationLabel, Array('ADD'), 'get_dependents_list', $field100->id);
     
+    // tbCategory
+    $moduleIns = Vtiger_Module::getInstance('tbMenusCategory');
+    $relatedModule = Vtiger_Module::getInstance($moduleInstance->name);
+    $relationLabel = 'LBL_'.strtoupper($moduleInstance->name).'_TBMENUS_ELEMENTS2';
+    $moduleIns->setRelatedList($relatedModule, $relationLabel, Array('ADD'), 'get_dependents_list', $field101->id);
+
     // inicializamos el menu
     
     $v_query = "SELECT (MAX(sequence) + 1) as num FROM vtiger_app2tab WHERE appname LIKE ?";

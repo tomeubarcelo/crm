@@ -475,20 +475,13 @@ if (($moduleInstance) && !$v_is_test) {
     
     
     // Creamos las relaciones entre los módulos 1:N
-    
-     //  tbMenus Elements
-     $moduleIns = Vtiger_Module::getInstance('tbMenus');
-     $relatedModule = Vtiger_Module::getInstance($moduleInstance->name);
-     $relationLabel = 'LBL_'.strtoupper($moduleInstance->name).'_TBMENUS_ELEMENTS';
-     $moduleIns->setRelatedList($relatedModule, $relationLabel, Array('ADD'), 'get_dependents_list', $field100->id);
-     
-    //  tbMenusElements
-    $moduleIns = Vtiger_Module::getInstance($moduleInstance->name);
-    $relatedModule = Vtiger_Module::getInstance('tbMenusElements');
-    $relationLabel = 'LBL_'.strtoupper($moduleInstance->name).'_TBMENUS_ELEMENTS';
-    $moduleIns->setRelatedList($relatedModule, $relationLabel, Array('ADD'), 'get_dependents_list', $field101->id);
-        
-    
+
+    //  tbMenu
+    $moduleIns = Vtiger_Module::getInstance('tbMenus');
+    $relatedModule = Vtiger_Module::getInstance($moduleInstance->name);
+    $relationLabel = 'LBL_'.strtoupper($moduleInstance->name).'_TBMENUS_CATEGORY';
+    $moduleIns->setRelatedList($relatedModule, $relationLabel, Array('ADD'), 'get_dependents_list', $field100->id);
+   
     // inicializamos el menu
     
     $v_query = "SELECT (MAX(sequence) + 1) as num FROM vtiger_app2tab WHERE appname LIKE ?";

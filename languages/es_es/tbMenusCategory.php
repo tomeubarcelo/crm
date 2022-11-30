@@ -51,7 +51,9 @@ $languageStrings = array(
     
     'LBL_TBCATEGORY_RESUMIDA' => 'Mostrar elementos de manera resumida',
     'LBL_TBMENUSCATEGORY_NUMBER_COLUMNS' => 'Nº de columnas en los que se muestran los elementos',
-    'LBL_TBMENUSCATEGORY_COLUMNS' => 'Columna'
+    'LBL_TBMENUSCATEGORY_COLUMNS' => 'Columna',
+
+    'LBL_TBMENUSCATEGORY_TBMENUS_CATEGORY' => 'Carta Online Categorías',
 
 
 );
