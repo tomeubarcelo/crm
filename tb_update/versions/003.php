@@ -13,7 +13,7 @@ $adb->query($v_query);
 $v_query = 'UPDATE `vtiger_app2tab` SET `visible`=0 WHERE `appname` = "SUPPORT"';
 $adb->query($v_query);
 
-$v_query = 'UPDATE `vtiger_app2tab` SET `appname`="MARKETING" WHERE `tabid` = 51 OR `tabid` = 52';
+$v_query = 'UPDATE `vtiger_app2tab` SET `appname`="MARKETING" WHERE `tabid` = 61 OR `tabid` = 62';
 $adb->query($v_query);
 
 $v_query = 'UPDATE `vtiger_app2tab` SET `visible`=0 WHERE (`tabid` = 4 or `tabid` = 6) AND appname != "MARKETING"';

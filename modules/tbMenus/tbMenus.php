@@ -121,19 +121,6 @@ class tbMenus extends Vtiger_CRMEntity {
  	    $v_query = 'UPDATE vtiger_tbmenus SET url = ? WHERE tbmenusid = ? AND (url = "" OR url IS NULL)';
  	    $adb->pquery($v_query, array($v_url, $this->id));
  	    
- 	    // guardamos el script encajado
- 	    $v_text = 'Insertar el siguiente código donde se quiera que aparezca el menú
-                    <div class="tbmenu" data-language="spanish" data-menuid="'.$this->id.'"></div>
-                    
-                    En el ejemplo anterior cambiar "spanish", por el idioma correspondiente [spanish|english|german|french|italian|russian|portuguese]
-                    
-                    Añadir el siguiente script al final de la página justo antes de la etiqueta </body>
-                    
-                    <script src="'.$site_URL.'menu.php?service=webscript" type="text/javascript" defer=""></script>';
- 	    
- 	    $v_query = 'UPDATE vtiger_tbmenus SET embed = ? WHERE tbmenusid = ? AND (embed = "" OR embed IS NULL)';
- 	    $adb->pquery($v_query, array($v_text, $this->id));
- 	    
  	    // guardamos el font family url con todo el código html
  	    $v_query = "UPDATE vtiger_tbmenus SET font_family_url = ? WHERE tbmenusid = ?";
  	    $adb->pquery($v_query, array($_REQUEST['font_family_url'], $this->id));
