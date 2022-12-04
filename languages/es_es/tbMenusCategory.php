@@ -54,7 +54,7 @@ $languageStrings = array(
     'LBL_TBMENUSCATEGORY_COLUMNS' => 'Columna',
 
     'LBL_TBMENUSCATEGORY_TBMENUS_CATEGORY' => 'Carta Online Categorías',
-
+    'LBL_TBMENUSELEMENTS_TBMENUS_ELEMENTS2' => 'Elementos de esta categoría'
 
 );
 $jsLanguageStrings = array(

@@ -28,6 +28,8 @@ $languageStrings = array(
     'LBL_TBPARTICIPANTES_AFILIADO' => 'Competidor',
     'LBL_ATTACH_INFORMATION' => 'Información Archivo',
     'LBL_TBPARTICIPANTES_ATTACH' => 'Autorización',
+
+    'LBL_TBPARTICIPANTES_PARTICIPANTES' => 'Participantes del campeonato',
 );
 $jsLanguageStrings = array(
     '' => '',

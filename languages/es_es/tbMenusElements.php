@@ -63,6 +63,8 @@ $languageStrings = array(
     'LBL_TBMENUS_TBMENUS_ELEMENTS' => 'Carta Online Elementos',
     'LBL_TBMENUSELEMENTS_SYSTEM' => 'Información del sistema',
 
+    'LBL_TBMENUSELEMENTS_TBMENUS_ELEMENTS2' => 'Elementos de esta categoría'
+
 );
 $jsLanguageStrings = array(
     '' => '',
